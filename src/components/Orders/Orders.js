@@ -1,5 +1,6 @@
 import React from 'react';
 import Paper from '@material-ui/core/Paper';
+import Avatar from '@material-ui/core/Avatar';
 import {makeStyles} from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
@@ -37,7 +38,12 @@ export default function Orders() {
     return (
     <div>
         <Paper className={styles.paper} elevation={20}>
-            <h1>This is where stuff import</h1>
+          <Paper className={styles.scoreboard}>
+            <h4>
+              THIS IS WHERE ORDER TOKENS GO
+            </h4>
+            <Avatar alt="Order" src="../imgs/tokens.jpg"/>
+          </Paper>
         </Paper>
     </div>
     )
