@@ -6,10 +6,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Scoreboard />
-      <Orders />
-    </div>
+    <table style={{ width: "100%" }}>
+      <tr>
+       <td>
+        <Scoreboard />
+      </td>
+      <td>
+        <Orders />
+        </td>
+      </tr>
+    </table>
   );
 }
 
